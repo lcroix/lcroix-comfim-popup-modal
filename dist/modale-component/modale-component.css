@@ -1,0 +1,43 @@
+.closeIcon {
+    width: 40px; 
+}
+
+.modalBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 18px;
+}
+
+.modalFooter {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 12px 20px; 
+    font-size: 1.2rem;
+    background-color: #173fad;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #173fad;
+}
+
+@media screen and (max-width: 600px) {
+    .modal {
+        width: 90%;
+    }
+
+    .modalBody {
+        font-size: 16px;
+    }
+}
